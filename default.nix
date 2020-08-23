@@ -1,4 +1,4 @@
-{ mkDerivation, base, parsec, stdenv, lhs2tex, graphviz }:
+{ mkDerivation ? stdenv.mkDerivation, base, parsec, stdenv, lhs2tex, graphviz }:
 mkDerivation {
   pname = "gressgraph";
   version = "0.2.1";
